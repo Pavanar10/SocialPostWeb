@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="form-container">
+        <div class="title">Create Account</div>
+        <form [formGroup]="createForm" >
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Your Email</mat-label>
+                <input matInput formControlName="email">
+                <mat-error *ngIf="createForm.controls['email'].invalid">
+                    {{createForm.controls['email'].hasError('required')?'Enter the Email':'Please enter valid email'}}
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Your Username</mat-label>
+                <input matInput formControlName="username"> 
+                <mat-error *ngIf="createForm.controls['username'].invalid">
+                    {{createForm.controls['username'].hasError('required')?'Please enter the user name':'Username should be of max 10 characters'}}
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Your Password</mat-label>
+                <input matInput type="password" formControlName="password">
+                <mat-error *ngIf="createForm.controls['password'].invalid">
+                    {{createForm.controls['password'].hasError('required')?'Please enter the password':'Password should be of mininum 6 characters'}}
+                </mat-error>
+            </mat-form-field>
+        </form>
+        {{createForm.value|json}}
+        <div class="buttons-container">
+            <button class="login-button" mat-raised-button (click)="createUser()" [disabled]="createForm.invalid">Create Account</button>
+            <p>OR</p>
+            <button mat-button  mat-raised-button routerLink="/login">Login</button>
+        </div>
+
+    </div>
+</div>

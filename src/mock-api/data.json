@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "1940",
+      "email": "ananya@gmail.com",
+      "username": "Ananya",
+      "password": "ssssss"
+    },
+    {
+      "id": "fdb3",
+      "email": "pavanar10@gmail.com",
+      "username": "Pavana",
+      "password": "aaaaaa"
+    }
+  ],
+  "posts": [
+    {
+      "id": "406b",
+      "username": "Ananya",
+      "text": "sadasdsad",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713186949897?alt=media&token=30cf29cb-c586-42e7-887b-bf403a574e16",
+      "likes": [],
+      "comments": []
+    },
+    {
+      "id": "c0fa",
+      "username": "Ananya",
+      "text": "dfsdfsd",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713187775656?alt=media&token=cc539529-03d4-4981-9c58-f7365f743533",
+      "likes": [],
+      "comments": []
+    },
+    {
+      "id": "f3d9",
+      "username": "Ananya",
+      "text": "teste",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713188629960?alt=media&token=e7caebaa-838d-446d-992a-1980014a012f",
+      "likes": [],
+      "comments": []
+    },
+    {
+      "id": "fd12",
+      "username": "Ananya",
+      "text": "gjgfhfghg",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713189000984?alt=media&token=e25aaa19-f88c-4f89-814e-0c4c69999a98",
+      "likes": [],
+      "comments": []
+    },
+    {
+      "id": "e1be",
+      "username": "Ananya",
+      "text": "aaaaaa",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713207119178?alt=media&token=889fc542-6a18-4b4a-a382-be29f954a6b0",
+      "likes": [],
+      "comments": []
+    },
+    {
+      "id": "b3c5",
+      "username": "Ananya",
+      "text": "Hi Guys just testing",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713208428500?alt=media&token=498612ab-af48-422d-9fb2-cd6e1d221e91",
+      "likes": [],
+      "comments": [
+        {
+          "username": "Ananya",
+          "comment": "aaaaaaa"
+        }
+      ]
+    },
+    {
+      "id": "ba29",
+      "username": "Ananya",
+      "text": "addsa new message ",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/sbook-9bfe9.appspot.com/o/images%2F1713210412215?alt=media&token=0c811bba-5b07-489f-924b-606187681548",
+      "likes": [
+        "1940"
+      ],
+      "comments": [
+        {
+          "username": "Ananya",
+          "comment": "aaaaa"
+        }
+      ]
+    }
+  ]
+}
