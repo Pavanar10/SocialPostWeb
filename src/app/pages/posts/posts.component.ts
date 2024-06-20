@@ -69,11 +69,10 @@ onFileSelected(event:any){
 
 }
 post(){
-
   this.snackbar.open('Creating the post....','',{duration:15000})
   if(this.selectedFile!== undefined || this.selectedFile!==null){
     this.uploadImage().then((url)=>{
-      console.log(url);
+      console.log("Image",url);
       let postObj={
         username:this.userService.user.username,
         text:this.text,
